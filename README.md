@@ -12,3 +12,7 @@ Load a texture atlas
 draw_tile(tile_id, x, y)  
 ↓  
 render a tilemap  
+↓  
+set up camera  
+↓  
+procedural generation  
