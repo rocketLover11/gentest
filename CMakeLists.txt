@@ -14,6 +14,7 @@ add_executable(gentest ${SOURCES})
 target_include_directories(gentest PRIVATE 
     include
     src/renderer
+    src/player
     src/tilemap
 )
 
@@ -21,4 +22,10 @@ target_link_libraries(gentest
     glfw
     OpenGL::GL
     m
+)
+
+add_custom_command(TARGET gentest POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E copy_if_different
+        $<TARGET_FILE:glfw>
+        $<TARGET_FILE_DIR:gentest>
 )

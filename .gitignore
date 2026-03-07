@@ -1,4 +1,5 @@
 build/
+art/
 *.o
 *.out
 *.exe
