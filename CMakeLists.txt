@@ -10,5 +10,5 @@ add_executable(gentest
 
 target_link_libraries(gentest
     glfw
-    OpenGL::GL
+    GL
 )
