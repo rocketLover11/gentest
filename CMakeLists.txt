@@ -11,6 +11,8 @@ add_executable(gentest
     src/main.c
 )
 
+target_include_directories(gentest PRIVATE include)
+
 target_link_libraries(gentest
     glfw
     OpenGL::GL
