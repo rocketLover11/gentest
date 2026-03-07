@@ -7,12 +7,12 @@ Procedurally generated world with Legend of Zelda: Link to the Past style in min
 
 Open a window (DONE)  
 ↓  
-Load a texture atlas  
+Load a texture atlas (DONE)  
 ↓  
-draw_tile(tile_id, x, y)  
+draw_tile(tile_id, x, y) (DONE)  
 ↓  
-render a tilemap  
+render a tilemap (DONE)  
 ↓  
-set up camera  
+Walking around  
 ↓  
 procedural generation  
