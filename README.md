@@ -13,6 +13,6 @@ draw_tile(tile_id, x, y) (DONE)
 ↓  
 render a tilemap (DONE)  
 ↓  
-Walking around  
+Walking around (DONE)  
 ↓  
 procedural generation  
