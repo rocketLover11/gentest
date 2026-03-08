@@ -22,6 +22,7 @@ target_include_directories(adventure_game PRIVATE
     src/player
     src/tilemap
     src/world/worldtest/perlin
+    ${SDL2_INCLUDE_DIRS}
 )
 
 target_include_directories(world_test PRIVATE
@@ -32,6 +33,7 @@ target_include_directories(world_test PRIVATE
 target_link_libraries(adventure_game
     glfw
     OpenGL::GL
+    ${SDL2_LIBRARIES}
     m
 )
 
